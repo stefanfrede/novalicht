@@ -39,7 +39,9 @@ $(function() {
           { src:'/img/showroom03.jpg', fade:2000 },
           { src:'/img/showroom04.jpg', fade:2000 },
           { src:'/img/showroom05.jpg', fade:2000 },
-          { src:'/img/showroom06.jpg', fade:2000 }
+          { src:'/img/showroom06.jpg', fade:2000 },
+          { src:'/img/showroom07.jpg', fade:2000 },
+          { src:'/img/showroom08.jpg', fade:2000 }
         ],
         walk:function(step) {
           $('#js-slides li').css("color", "#ffffff");
