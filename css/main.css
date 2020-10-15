@@ -1,0 +1,460 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+body {
+  background: black;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+header {
+  background: url("../img/bg-nav.png") repeat-x top left;
+  bottom: auto;
+  font-size: 24px;
+  left: 0;
+  line-height: 60px;
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+header h1 {
+  float: left;
+  font-size: 24px;
+  line-height: 60px;
+  margin: 0 100px 0 0;
+  padding: 0;
+}
+
+header h1 a {
+  background: url("../img/l-novalicht.png") no-repeat center center;
+  color: white;
+  display: block;
+  height: 60px;
+  padding-top: 18px;
+  text-decoration: none;
+  width: 175px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  background: url("../img/bg-nav-seperator.png") no-repeat top right;
+  display: inline;
+  float: left;
+  padding: 0 16px 0 15px;
+}
+
+header nav ul li:first-child {
+  padding-left: 0;
+}
+
+header nav ul li:last-child {
+  background: none;
+  padding-right: 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover,
+header nav ul li a.current {
+  color: #ffc;
+}
+
+.slides {
+  color: white;
+  font-size: 18px;
+  line-height: 40px;
+  margin: 0 48px 0 54px;
+  padding: 0;
+  position: absolute;
+  top: 90px;
+}
+
+.slides::before {
+  content: url("../img/bg-slides-left.png");
+  left: -54px;
+  position: absolute;
+}
+
+.slides::after {
+  content: url("../img/bg-slides-right.png");
+  right: -48px;
+  position: absolute;
+}
+
+.slides li {
+  background: url("../img/bg-slides-center.png") repeat-x center center;
+  cursor: pointer;
+  display: inline;
+  float: left;
+  padding: 0 10px;
+}
+
+.slides li:hover {
+  color: #ffc !important;
+}
+
+.slides.is-gallery {
+  left: 253px;
+}
+
+.slides.is-showroom {
+  left: 377px;
+}
+
+.btn {
+  background-image: url("../img/btn-slideshow.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 100px;
+  position: absolute;
+  top: 45%;
+  width: 50px;
+}
+
+.btn.is-previous {
+  background-position: 0 0;
+  left: 0;
+}
+
+.btn.is-next {
+  background-position: 0 -100px;
+  right: 0;
+}
+
+.contact-box {
+  background-color: rgba(0, 0, 0, 0.66);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 35px 0;
+  position: absolute;
+  width: 275px;
+}
+
+.contact-box.is-imprint {
+  left: 60px;
+  top: 135px;
+}
+
+.contact-box.is-contacts {
+  left: 336px;
+  top: 135px;
+}
+
+.contact-box dl {
+  float: left;
+  margin: 0 0 15px;
+}
+
+.contact-box dt {
+  clear: left;
+  float: left;
+  width: 55px;
+  margin: 0;
+}
+
+.contact-box dt.is-single {
+  width: auto;
+}
+
+.contact-box dd {
+  float: left;
+  width: 150px;
+  margin: 0;
+}
+
+.contact-box dl .has-gap {
+  margin-bottom: 15px;
+}
+
+.contact-box dl,
+.contact-box p {
+  background: url("../img/bg-contact-box.png") no-repeat 25px 100%;
+  margin-bottom: 15px;
+  padding: 0 35px 15px;
+}
+
+.contact-box p:last-child {
+  background-image: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.contact-box p.is-kilo {
+  font-size: 24px;
+}
+
+.contact-box a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .contact-box a:after { */
+
+/*   content: " >>"; */
+
+/* } */
+
+.brands-box {
+  background-image: url("../img/bg-brands.gif");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 600px;
+  left: 60px;
+  position: absolute;
+  top: 135px;
+  width: 905px;
+}
+
+footer {
+  background: black;
+  bottom: 0;
+  color: white;
+  font-size: 12px;
+  left: 0;
+  line-height: 40px;
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+  top: auto;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a.facebook {
+  background-image: url("../img/bg-fb.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 30px;
+}
+
+footer a.facebook:hover,
+footer a.facebook:active,
+footer a.facebook:focus {
+  background-image: url("../img/bg-fb-hover.png");
+}
+
+footer a.instagram {
+  background-image: url("../img/bg-instagram.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  float: right;
+  margin-top: 5px;
+  width: 30px;
+}
+
+footer a.instagram:hover,
+footer a.instagram:active,
+footer a.instagram:focus {
+  background-image: url("../img/bg-instagram-hover.png");
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+.ir::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+
+  .ir a::after,
+  a[href^="javascript:"]::after,
+  a[href^="#"]::after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group; /* h5bp.com/t */
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
